@@ -43,7 +43,7 @@ module.exports = {
     production : {
       key : '~/pem-keys/demo_app.pem',
       user : 'ubuntu',
-      host : ['ec2-18-218-117-160.us-east-2.compute.amazonaws.com', 'ec2-3-17-133-193.us-east-2.compute.amazonaws.com'],
+      host : [/*'ec2-18-218-117-160.us-east-2.compute.amazonaws.com', */'ec2-3-17-133-193.us-east-2.compute.amazonaws.com'],
       ref  : 'origin/master',
       repo : 'git@github.com:OfirGMoveo/demo-ts-server.git',
       path : '/home/ubuntu/demo-ts-server/',
