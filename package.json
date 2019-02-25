@@ -10,14 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "@types/express": "^4.16.1",
     "@types/node": "^10.12.24",
-    "ts-node": "^8.0.2",
-    "typescript": "^3.3.3",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
   }
 }
