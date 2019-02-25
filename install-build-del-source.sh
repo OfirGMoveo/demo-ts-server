@@ -1,8 +1,6 @@
 npm install
 echo 'install done'
 
-npm run build 
+npm run build && rm -rf src
 echo 'build done'
-
-rm -rf src
 echo 'del source done'
