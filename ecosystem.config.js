@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name: 'API01',
-    script: './dist/index.js',
+    script: 'dist/index.js',
     // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
     args: 'one two',
     instances: 'max',
@@ -20,7 +20,7 @@ module.exports = {
   },
   {
     name: 'API02',
-    script: './dist/index.js',
+    script: './current/dist/index.js',
 
     // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
     args: 'one two',
